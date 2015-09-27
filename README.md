@@ -20,9 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-Add to application.js //= require jquery.gridster.js
+Add to the associated file to your application.js:
 
-Add to application.css *= require jquery.gridster.css
+    //= require gridster_rails
+
+or if you want extra functionality, add 
+    //= require gridster_rails_extra
+
+Add to the respective stylesheet as well for proper functionality to your application.css 
+    *= require gridster_rails
+
+In your js file, target the gridster class by doing something like this:
+    $(".gridster ul").gridster({
+        widget_margins: [10, 10],
+        widget_base_dimensions: [140, 140]
+    });
 
 ## Contributing
 
