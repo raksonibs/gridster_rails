@@ -1,6 +1,6 @@
 # GridsterRails
 
-TODO: Write a gem description
+This gem takes into account the new changes in Gridster and extends the library with new functionality.
 
 ## Installation
 
@@ -20,11 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add to application.js //= require jquery.gridster.js
+
+Add to application.css *= require jquery.gridster.css
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/gridster_rails/fork )
+1. Fork it ( https://github.com/raksonibs/gridster_rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
