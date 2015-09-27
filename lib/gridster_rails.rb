@@ -1,5 +1,8 @@
 require "gridster_rails/version"
 
 module GridsterRails
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
